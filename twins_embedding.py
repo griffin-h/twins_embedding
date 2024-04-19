@@ -1704,7 +1704,8 @@ class TwinsEmbeddingModel():
     """
     def __init__(self, data=None):
         if data is None:
-            data = self._load_data('./models/twins_embedding_1.pkl')
+            data_path = os.path.join(os.path.split(__file__)[0], 'models', 'twins_embedding_1.pkl')
+            data = self._load_data(data_path)
 
         self.data = data
 
