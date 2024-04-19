@@ -4,10 +4,7 @@ Simplest spectral indicator measurements
 This code is originally from Sam Dixon (https://github.com/sam-dixon)
 """
 
-import pickle
 import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
 from scipy.interpolate import UnivariateSpline as US
 
 LIMITS = {

@@ -6,8 +6,6 @@ import numpy as np
 import pickle
 import pystan
 
-from matplotlib import pyplot as plt
-
 from idrtools import math
 
 
