@@ -4,7 +4,10 @@ from hashlib import md5
 import os
 import numpy as np
 import pickle
-import pystan
+try:
+    import pystan
+except ModuleNotFoundError:
+    pass
 
 from idrtools import math
 
